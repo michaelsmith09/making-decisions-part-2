@@ -6,6 +6,13 @@
   If it is not, console log "Coding has its challenges."
 */
 
+// var lovesCode = true;
+
+// if (lovesCode === true){
+//   console.log("I love to code!");
+// } else {
+//   console.log("Coding has its challenges.");
+// }
 //CODE HERE
 
 // For problems 2-3 use the following lines of code:
@@ -20,6 +27,13 @@ var brittanisBirthYear = 1986;
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
 
+// if (amysAge > brittanisAge) {
+//   console.log("Amy is older");
+// } else if (brittanisAge > amysAge) {
+//   console.log("Brittani is older");
+// } else {
+//   console.log("Brittani and Amy are the same age!");
+// }
 //CODE HERE
 
 ////////// PROBLEM 3 //////////
@@ -28,6 +42,11 @@ var brittanisBirthYear = 1986;
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
+// if (amysBirthYear === brittanisBirthYear){
+//   console.log("Amy & Brittani were born in the same year");
+// } else {
+//   console.log("Amy & Brittani were not born in the same year");
+// }
 //CODE HERE
 
 ////////// PROBLEM 4 //////////
@@ -40,6 +59,17 @@ let rain = true;
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
+// if (temperature >= 80 && rain === true) {
+//   console.log(`Wear a t-shirt and take an umbrella.`);
+// } else if (temperature >= 60 && rain === true) {
+//   console.log("One should wear a rain-jacket.");
+// } else if (temperature < 60) {
+//   console.log("Bundle up");
+// } if (rain === false) {
+//   console.log("No umbrella needed!");
+// } if (rain === true) {
+//   console.log("Umbrella Recommended!")
+// }
 //CODE HERE
 
 ////////// PROBLEM 5 //////////
@@ -48,6 +78,7 @@ let rain = true;
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
+[...Array(10)].forEach(() => console.log('Hello'));
 //CODE HERE
 
 ////////// PROBLEM 6 //////////
